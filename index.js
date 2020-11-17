@@ -1,7 +1,10 @@
 // Your code goes here
 
-const text = document.getElementById("text")
-
-document.addEventListener("DOMContentLoaded", function(){
-    text.textContent = "This is really cool!"
-})
+document.addEventListener( "DOMContentLoaded", function () {
+    updateDOM()
+  } )
+  
+  
+function updateDOM() {
+    document.getElementById( "text" ).innerHTML = "This is really cool!"
+}
